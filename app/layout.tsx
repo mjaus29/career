@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "Career Acceleration Tracker",
   description:
     "Track your journey to accelerating your career with personalized goals and progress monitoring.",
+  manifest: "/manifest.json",
+  themeColor: "#000000",
+  viewport: "width=device-width, initial-scale=1",
   icons: {
     icon: [
       { url: "/favicon.svg", type: "image/svg+xml" },
