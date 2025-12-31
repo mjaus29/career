@@ -16,3 +16,13 @@ model Progress {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
+
+model DailyProgress {
+  id        String   @id @default(cuid())
+  date      DateTime @unique @db.Date
+  gfeCards  Int      @default(0)
+  femHours  Float    @default(0)
+  jsmPercent Int     @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
