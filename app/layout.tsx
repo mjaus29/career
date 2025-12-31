@@ -16,6 +16,12 @@ export const metadata: Metadata = {
   title: "Career Acceleration Tracker",
   description:
     "Track your journey to accelerating your career with personalized goals and progress monitoring.",
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon-32x32.svg", type: "image/svg+xml", sizes: "32x32" },
+    ],
+  },
 };
 
 export default function RootLayout({

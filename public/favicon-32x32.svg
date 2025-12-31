@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" stroke="#0ea5e9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Trending up arrow for 32x32 icon -->
+  <polyline points="29,9 18,20 11,13 3,21"></polyline>
+  <polyline points="21,9 29,9 29,17"></polyline>
+</svg>
